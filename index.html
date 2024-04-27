@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link href="style.css" rel="stylesheet">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="calc">
+    <input id="calDisplay">
+    <div class="row">
+      <button class="calButton" onclick="getNum('7')">7</button>
+      <button class="calButton" onclick="getNum('8')">8</button>
+      <button class="calButton" onclick="getNum('9')">9</button>
+      <button class="calButton" onclick="getNum('+')">+</button>
+    </div>
+    <div class="row">
+      <button class="calButton" onclick="getNum('4')">4</button>
+      <button class="calButton" onclick="getNum('5')">5</button>
+      <button class="calButton" onclick="getNum('6')">6</button>
+      <button class="calButton" onclick="getNum('-')">-</button>
+    </div>
+    <div class="row">
+      <button class="calButton" onclick="getNum('1')">1</button>
+      <button class="calButton" onclick="getNum('2')">2</button>
+      <button class="calButton" onclick="getNum('3')">3</button>
+      <button class="calButton" onclick="getNum('*')">×</button>
+    </div>
+    <div class="row">
+      <button class="calButton" onclick="getNum('÷')">÷</button>
+      <button class="calButton" onclick="clrDisplay()">C</button>
+      <button class="calButton" onclick="getNum('0')">0</button>
+      <button class="calButton" onclick="eqbtn('=')">=</button>
+    </div>
+  </div>
+</body>
+</html>
